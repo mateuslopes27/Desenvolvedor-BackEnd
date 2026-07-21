@@ -1,0 +1,46 @@
+using static System.Console;
+
+//BackgroundColor = ConsoleColor.DarkRed;
+double numero = 1.9831083;
+WriteLine($"Salario = R$ {numero:n}");
+WriteLine("Hello, World!");
+Write("SENAI");
+WriteLine("\t\t\tClodoaldo");
+Title = "Aplicativo SENAI";
+string escola = "Americana";
+WriteLine($"SENAI {escola}");
+ForegroundColor = ConsoleColor.Red;
+WriteLine("MESSI");
+ResetColor();
+ReadKey();
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Processamento de dados
+int a = 1 + 1;//Op soma
+int b = 2 - 1;//Op sub
+int c = 3 * 1; //Op mult
+double d = 4 / 1; //Op divisão
+double e = 2 * 2 * 2; //Potência
+double f = Math.Sqrt(4); //Raiz quadrada
+Math.Pow(2, 3); //Potência
+double k = 1 + (1 - (2 * 3)) / 4;
+double j = 2 % 2; //Módulo ou resto da divisão
+int y = 0;
+y++; //Incremento em
+y--; //Decremento em um
+y += 2; //Soma e atribuição
+y -=2; // Subtração e atribuição
+y *= 2; //Multiplicação e atribuição
+y /= 2; //DIvisão e atribuição
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Entrada de dados
+Console.Write("Digite o seu nome: ");
+string nome = Console.ReadLine(); //Entrada de dados
+Console.Write("Digite a sua idade: ");
+int idade = int.Parse(Console.ReadLine()); //Conversão de dados
+Console.Write("Digite o seu salário: R$");
+double salario = double.Parse(Console.ReadLine());
+Console.WriteLine($"Nome: {nome}, Idade {idade}, Salario = R$ {salario}");
