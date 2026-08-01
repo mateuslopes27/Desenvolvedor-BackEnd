@@ -22,19 +22,19 @@ try
     medida3 = ladob + ladoa;
 
     //Saída de dados
-    if (medida1 > ladoa && medida2 > ladob && medida3 > ladoc & ladoa == ladob && ladob == ladoc && ladoc == ladoa)
+    if ((medida1 > ladoa && medida2 > ladob && medida3 > ladoc) && (ladoa == ladob && ladob == ladoc && ladoc == ladoa))
     {
         Console.WriteLine("Seu Triangulo é Equilátero!");
     }
-    else if (medida1 > ladoa && medida2 > ladob && medida3 > ladoc && ladoa == ladob || ladob == ladoc || ladoc == ladoa)
+    else if ((medida1 > ladoa && medida2 > ladob && medida3 > ladoc) && (ladoa == ladob || ladob == ladoc || ladoc == ladoa))
     {
         Console.WriteLine("Seu triangulo é Isóceles!");
     }
-    else if (medida1 > ladoa && medida2 > ladob && medida3 > ladoc && ladoa != ladob && ladob != ladoc && ladoc != ladoa)
+    else if ((medida1 > ladoa && medida2 > ladob && medida3 > ladoc) && (ladoa != ladob && ladob != ladoc && ladoc != ladoa))
     {
         Console.WriteLine("Seu triangulo é Escaleno!");
     }
-    else if (medida1 < ladoa || medida2 < ladob || medida3 < ladoc)
+    else
     {
         Console.WriteLine("Com esse números não da pra se fazer um triangulo!");
     }

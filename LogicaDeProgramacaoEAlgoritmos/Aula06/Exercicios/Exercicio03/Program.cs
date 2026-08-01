@@ -33,10 +33,10 @@ try
     desconto2 = ((precophora * horastra) * 10) / 100;
     desconto3 = ((precophora * horastra) * 20) / 100;
     somanada = salariobruto - (inss + fgts);
-    totaldesconto1 = (inss + fgts);
-    totaldesconto2 = (inss + fgts) + desconto1;
-    totaldesconto3 = (inss + fgts) + desconto2;
-    totaldesconto4 = (inss + fgts) + desconto3;
+    totaldesconto1 = inss;
+    totaldesconto2 = inss + desconto1;
+    totaldesconto3 = inss + desconto2;
+    totaldesconto4 = inss + desconto3;
     soma1 = salariobruto - totaldesconto2;
     soma2 = salariobruto - totaldesconto3;
     soma3 = salariobruto - totaldesconto4;
