@@ -8,7 +8,7 @@
 async Task PrepararHamburguer()
 {
     Console.WriteLine("Preparando Hamburguer...");
-    Task.Delay(3000);
+    _ = Task.Delay(3000);
     Console.WriteLine("Seu Hamburguer está pronto!");
 }
 
