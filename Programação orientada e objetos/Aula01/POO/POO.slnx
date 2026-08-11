@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="POO2/POO2.csproj" />
+  <Project Path="POO3/POO3.csproj" />
+  <Project Path="Triangulo_Com_Poo/Triangulo_Com_Poo.csproj" />
+  <Project Path="Triangulo_Sem_Poo/Triangulo_Sem_Poo.csproj" />
+</Solution>
