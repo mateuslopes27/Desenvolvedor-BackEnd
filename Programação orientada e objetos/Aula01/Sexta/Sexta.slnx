@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Aplicativo01/Aplicativo01.csproj" />
+  <Project Path="Estrutura/Estrutura.csproj" />
+  <Project Path="Moeda/Moeda.csproj" />
+  <Project Path="WinFormApp1/WinFormApp1.csproj" />
+</Solution>
